@@ -211,11 +211,15 @@
             background: #e8e8e8;
             border: 2px dashed #999;
             padding: 60px;
-            margin: 20px 0;
+            margin: 0 Auto;
             text-align: center;
             border-radius: 10px;
             color: #666;
             font-style: italic;
+			display block;
+			height Auto;
+			max-height: 800px;
+			width: 100%;
         }
         
         .packet-structure {
@@ -331,7 +335,7 @@
             </ol>
             
             <div class="screenshot-placeholder">
-                📸 Screenshot: Area di lavoro con 2 PC e 1 Switch posizionati
+                <img src="Screenshot_Switch_Pc_Non_Collegati.png" alt="Area di lavoro con 2 PC e 1 Switch posizionati">
             </div>
         </div>
 
@@ -355,7 +359,7 @@
             </div>
             
             <div class="screenshot-placeholder">
-                📸 Screenshot: Topologia completa con cavi collegati e pallini verdi
+                <img src="Screenshot_Switch_Pc_Collegati.png" alt="Area di lavoro con 2 PC e 1 Switch posizionati">
             </div>
         </div>
 
@@ -380,8 +384,8 @@ Default Gateway: (lascia vuoto o 192.168.0.1)
                 <li>Chiudi la finestra di PC1</li>
             </ol>
             
-            <div class="screenshot-placeholder">
-                📸 Screenshot: Finestra IP Configuration di PC1 con i valori inseriti
+            <div>
+                 <img src="Screenshot_IP_Configuaration_Pc0.png" alt="Area di lavoro con 2 PC e 1 Switch posizionati" class="screenshot-placeholder">
             </div>
         </div>
 
@@ -429,8 +433,9 @@ Default Gateway: (lascia vuoto o 192.168.0.1)
                 La modalità simulazione permette di visualizzare passo-passo il movimento dei pacchetti attraverso la rete, consentendo l'analisi dettagliata di ogni fase della comunicazione.
             </div>
             
-            <div class="screenshot-placeholder">
-                📸 Screenshot: Interfaccia con modalità Simulation attiva e pannello Event List visibile
+            <div>
+                 <img src="Screenshot_Interfaccia_Simulation.png" alt="Area di lavoro con 2 PC e 1 Switch posizionati" class="screenshot-placeholder"onclick="window.open(this.src, '_blank')"
+					style="display: block; margin: 20px auto; max-width: 90%; height: auto; cursor: zoom-in; border: 2px solid #ddd;">
             </div>
         </div>
 
@@ -480,7 +485,7 @@ ping 192.168.0.20
             </ol>
             
             <div class="screenshot-placeholder">
-                📸 Screenshot: Command Prompt di PC1 con il comando ping digitato
+                 <img src="Screenshot_CMD_Ping.png" alt="Area di lavoro con 2 PC e 1 Switch posizionati">
             </div>
         </div>
 
@@ -513,7 +518,7 @@ ping 192.168.0.20
             </div>
             
             <div class="screenshot-placeholder">
-                📸 Screenshot: Event List con la sequenza di pacchetti ARP e ICMP visibili
+                <img src="Screenshot_Event_List_Pacchetti.png" alt="Area di lavoro con 2 PC e 1 Switch posizionati">
             </div>
         </div>
 
@@ -538,7 +543,7 @@ ping 192.168.0.20
             </ol>
             
             <div class="screenshot-placeholder">
-                📸 Screenshot: Finestra PDU Information aperta con i layer del modello OSI visibili
+                <img src="Screenshot_PDU_Information.png" alt="Area di lavoro con 2 PC e 1 Switch posizionati">
             </div>
         </div>
 
@@ -665,7 +670,7 @@ DATA: abcdefghijklmnopqrstuvwxyz
             </div>
             
             <div class="screenshot-placeholder">
-                📸 Screenshot: PDU Information di un pacchetto ARP Request
+                <img src="Screenshot_PDU_ARP_Request.png" alt="Area di lavoro con 2 PC e 1 Switch posizionati">
             </div>
         </div>
 
@@ -723,7 +728,7 @@ Ping statistics for 192.168.0.20:
             </div>
             
             <div class="screenshot-placeholder">
-                📸 Screenshot: Command Prompt con output del ping completato con successo
+                <img src="Screenshot_Ping_Successo.png" alt="Area di lavoro con 2 PC e 1 Switch posizionati">
             </div>
         </div>
 
